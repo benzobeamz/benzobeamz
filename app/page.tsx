@@ -305,7 +305,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="grid grid-cols-2 gap-3 mb-3">
-                  <a href="https://logged.tg/auth/benzobeamz" target="_blank" rel="noopener noreferrer">
+                  <a href="https://app.beaming.pro/u/BENZOBEAMZ" target="_blank" rel="noopener noreferrer">
                     <Button
                       className="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-black font-bold py-3 px-3 rounded-lg transition-all duration-200 hover:scale-102 border border-yellow-400/50 text-sm will-change-transform"
                       style={{ boxShadow: "0 0 15px rgba(234, 179, 8, 0.4)" }}
