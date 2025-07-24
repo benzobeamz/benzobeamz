@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   description: "The #1 Roblox Beaming Website with URL shortening capabilities",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "32x32" },
-      { url: "/favicon.ico", sizes: "16x16" },
+      { url: "/favicon.ico", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.ico", sizes: "16x16", type: "image/png" },
     ],
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/png" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#00bcd4" />
       </head>
